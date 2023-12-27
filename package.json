@@ -10,7 +10,7 @@
         "dev": "parcel ./src/index.html",
         "build": "parcel build ./src/index.html",
         "predeploy": "yarn run build",
-        "deploy": "gh-pages -d dist"
+        "deploy": "yarn gh-pages -d dist"
     },
     "dependencies": {
         "react": "^18.2.0",
