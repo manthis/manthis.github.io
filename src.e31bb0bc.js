@@ -28843,9 +28843,6 @@ if ("development" === 'production') {
 var _react = _interopRequireDefault(require("react"));
 var _reactDom = _interopRequireDefault(require("react-dom"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-// Clear the existing HTML content
-document.body.innerHTML = '<div id="app"></div>';
-
 // Main App component
 var App = function App() {
   return /*#__PURE__*/_react.default.createElement("h1", null, "Hello Max!");
@@ -28878,7 +28875,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50040" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54784" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
