@@ -1,9 +1,13 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom';
 
 // Clear the existing HTML content
 document.body.innerHTML = '<div id="app"></div>';
 
-// Render your React component instead
-const root = createRoot(document.getElementById('app'));
-root.render(<h1>Hello, world</h1>);
+// Main App component
+const App = () => {
+    return <h1>Hello Max!</h1>;
+};
+
+// We render our app
+ReactDOM.render(<App />, document.getElementById('app'));
