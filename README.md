@@ -1,3 +1,3 @@
 # manthis.github.io
 
-Website for HelloMax
+Website for HelloMax built with React
