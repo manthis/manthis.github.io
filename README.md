@@ -1,2 +1,3 @@
-# hellomax-website
+# manthis.github.io
+
 Website for HelloMax
